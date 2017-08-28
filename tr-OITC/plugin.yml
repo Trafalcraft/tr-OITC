@@ -1,0 +1,44 @@
+name: OITC
+version: 1.0
+description: Mini-jeux OITC
+author: ludo
+ 
+main: com.trafalcraft.ludo.Main
+ 
+commands:
+   join:
+     description: rejoindre la partie
+     aliases: []
+   leave:
+     description: quitter la partie
+     aliases: []
+   setlobby:
+     description: set le point d'apparition des joueurs 
+     aliases: []
+   fstart:
+     description: lance la partie
+     aliases: []
+   setspawn:
+     description: set un spawn
+     aliases: []
+   setmaxjoueur:
+     description: set le nombre max de joueurs
+     aliases: []
+   deletespawn:
+     description: detruit le dernier spawn
+     aliases: []
+   setmaxpoint:
+     description: set le nombre de points a avoir pour gagner
+     aliases: []
+   setdegatchute:
+     description: set si les degats de chute sont actifs ou non
+     aliases: [] 
+   setdegatnoyade:
+     description: set si les degats de noyade sont actifs ou non
+     aliases: [] 
+   setdegatdufeu:
+     description: set si le feu fait des degats ou non
+     aliases: []
+   settemps:
+     description: set la duree maximum d'une partie en minutes
+     aliases: []

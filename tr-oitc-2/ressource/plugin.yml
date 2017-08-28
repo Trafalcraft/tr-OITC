@@ -1,0 +1,11 @@
+name: tr-oitc
+version: 2.0
+description: arc oneshote plus un épée en pierre
+author: ludo
+ 
+main: com.trafalcraft.ludo.oitc.Main
+ 
+commands:
+  oitc:
+    description: commande du plugin oitc
+    aliases: []
